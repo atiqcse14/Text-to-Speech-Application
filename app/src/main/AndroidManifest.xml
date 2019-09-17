@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shovan.texttospeech">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EnglishActivity" />
+        <activity android:name=".ChineseActivity" />
+        <activity android:name=".CanadaActivity" />
+        <activity android:name=".FrenchActivity" />
+        <activity android:name=".GermanActivity" />
+        <activity android:name=".JapaneseActivity" />
+        <activity android:name=".KoreanActivity" />
+        <activity android:name=".ItalyActivity"></activity>
+    </application>
+
+</manifest>

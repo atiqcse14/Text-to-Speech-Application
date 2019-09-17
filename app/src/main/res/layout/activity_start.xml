@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context="com.example.shovan.texttospeech.StartActivity"
+    android:background="@drawable/wall1"
+    >
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_marginTop="102dp"
+        android:id="@+id/radiogrp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" English"
+            android:id="@+id/engBtn"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Chinese"
+            android:id="@+id/chinBtn"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Canada"
+            android:id="@+id/canBtn"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" French"
+            android:textSize="25sp"
+            android:id="@+id/frBtn"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" German"
+            android:textSize="25sp"
+            android:id="@+id/gerBtn"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Italy"
+            android:textSize="25sp"
+            android:id="@+id/itaBtn"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Japanese"
+            android:textSize="25sp"
+            android:id="@+id/japBtn"
+            />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Korean"
+            android:textSize="25sp"
+            android:id="@+id/korBtn"/>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150sp"
+        android:id="@+id/nextBtn"
+        android:layout_height="50sp"
+        android:text="Next"
+        android:textSize="25sp"
+        android:background="@drawable/nextbtnn"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/radiogrp"
+        android:layout_alignLeft="@id/radiogrp"
+
+        />
+
+
+</RelativeLayout>
